@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web app portfolio by Your Name." />
+    <title>Your Name — Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="name" href="#top">Your Name</a>
+      <nav aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="intro">
+        <p class="label">Web app portfolio</p>
+        <h1>I build useful web apps.</h1>
+        <p>Selected product and development work.</p>
+      </section>
+
+      <section id="work" aria-labelledby="work-title">
+        <div class="section-title">
+          <p class="label">Work</p>
+          <h2 id="work-title">Projects</h2>
+        </div>
+
+        <!-- Replace these sample projects and links with your own. -->
+        <div class="projects">
+          <article>
+            <div class="project-image purple" aria-hidden="true"><span>PB</span></div>
+            <div class="project-copy">
+              <div><h3>Pulseboard</h3><p>Team analytics dashboard.</p></div>
+              <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">View ↗</a>
+            </div>
+          </article>
+          <article>
+            <div class="project-image green" aria-hidden="true"><span>LO</span></div>
+            <div class="project-copy">
+              <div><h3>Loom</h3><p>Daily wellness companion.</p></div>
+              <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">View ↗</a>
+            </div>
+          </article>
+          <article>
+            <div class="project-image yellow" aria-hidden="true"><span>ST</span></div>
+            <div class="project-copy">
+              <div><h3>Strata</h3><p>Local discovery app.</p></div>
+              <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">View ↗</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <p class="label">About</p>
+        <div><h2 id="about-title">Simple products, made carefully.</h2><p>I design and build focused digital tools.</p></div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <p class="label">Contact</p>
+        <h2 id="contact-title">Have a project?</h2>
+        <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> Your Name</span>
+      <a href="https://github.com/your-github-username" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
