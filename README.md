@@ -1,6 +1,10 @@
 # Web app portfolio
 
-A static, GitHub Pages-ready portfolio site. Open `index.html` locally to preview it.
+A static, GitHub Pages-ready portfolio site.
+
+Generated with Codex 5.6 Terra Extra High Reasoning https://chatgpt.com/s/cx_6abe34089ca481919dc72904bff2f784
+
+Open `index.html` locally to preview it.
 
 ## Personalize it
 
